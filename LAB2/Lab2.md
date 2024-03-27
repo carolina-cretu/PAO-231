@@ -80,3 +80,11 @@ Static methods:
  - array urile pot fi unidimensionale sau multidimensionale (bidimensionale, tridimensionale)
  - pentru operatii cu array uri, putem folosi clasa Arrays unde gasim diverse metode care ne ajuta sa manipulam array urile (copy(), fill(), etc)
  - in cazul array urilor, ca si in cauzl primitivelor, referinta este tot in zona de memorie de tip stiva; initializarea aloca spatiu de memorie pe heap pentru variabile
+
+#### Clase interioare 
+
+ - o clasa interioara este o clasa ce este definita intr-o alta clasa
+ - clasele interioare pot fi statice sau nonstatice 
+ - pot avea orice modificator de acces in declaratie (fata de clasele de top, care nu pot avea decat public sau protected - declarare default, fara modificator)
+ - cele statice apartin clasei exterioare care o contine si nu unei instante; poate accesa membrii statici ai clasei exterioare
+ - cele non statice apartin unei instante si nu pot fi instantiate fara o instanta de clasa exterioara; poate accesa si membrii statici si cei nonstatici
