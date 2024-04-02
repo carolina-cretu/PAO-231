@@ -1,8 +1,7 @@
 # Ascoieri intre clase (agregare si compozitie). Clasele String, StringBuilder si StringBuffer. Obiecte Immutable. Records
 
-In Object-Oriented programming, an Object communicates with other Objects to use
-functionality and services provided by that object.
-Composition and Aggregation are the two forms of association.
+In oop, un obiect comunica cu un alt obiect folosind functionalitate si servicii oferite de acel obiect.
+Compozitia si agregarea sunt 2 forme de asociere.
 
 
 #### Aggregare
@@ -26,17 +25,12 @@ Composition and Aggregation are the two forms of association.
 
 #### StringBuilder
 
-- The StringBuilder represents a mutable sequence of characters. Since the String Class in Java
 - Clasa Stringbuilder reprezinta un sir de caractere mutabil
 - este o alternativa la clasa String si la crearea ineficienta de obiecte
 - https://docs.oracle.com/javase/tutorial/java/data/buffers.html
 
 #### StringBuffer
 
-- The StringBuffer represents a mutable sequence of characters. String buffers are safe for use
-  by multiple threads. The methods are synchronized where necessary so that all the operations
-  on any particular instance behave as if they occur in some serial order that is consistent with the
-  order of the method calls made by each of the individual threads involved.
 - singura diferenta intre StringBuffer si StringBuilder este faptul ca StringBuffer este thread safe - metodele sunt sincronizate astfel incat toate operatiile efectuate pe o anumita instanta
 se comporta ca si cum ar fi desfasurate intr-un soi de serie care e consistenta cu ordinea apelurilor de metode facuta de fiecare fr de executie implicat
 - deoarece este thread safe, este mai lenta; se recomanda folosirea StringBuilder ori de cate ori este posibil !
