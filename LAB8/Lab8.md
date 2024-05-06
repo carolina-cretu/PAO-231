@@ -1,4 +1,4 @@
-# Serializarea obiectelor. Externalizarea obiectelor. Colectii (partea 1)
+# Serializarea obiectelor. Externalizarea obiectelor.
 
 ###### Serializarea obiectelor
 - Este conversia starii unui obiect intru-un sir de bytes, iar deserializarea este procesul invers; altfel
