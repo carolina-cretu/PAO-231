@@ -1,4 +1,4 @@
-# Programare functionala. Expresii lambda. Interfete functionale din jfk. Streamuri. Optional
+# Programare functionala. Expresii lambda. Interfete functionale din jdk. Streamuri. Optional
 
 ###### Programare functionala
 - Programarea functionala este o paradigma de programare in care programele sunt construite aplicand si adaugand functii
