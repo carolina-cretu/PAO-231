@@ -1,10 +1,7 @@
-# JDBC. Programare functionala.
+###### JDBC (JAVA DATABASE CONNECTIVITY)
+
 
 ###### JDBC (JAVA DATABASE CONNECTIVITY)
-- 
-
-
-###### Programare functionala
 - Pentru a persista si a gestiona date intr-o aplicatie, folosim o baza de date care este gestionata de un SGBD (sistem de gestiune a bazelor de date) dedicat, aflat de obicei pe un server
 - JDBC este un API dedicat accesarii bazelor de date din cadrul unei aplicatii java care permite conectarea la un server de bae de date, precum si executarea unor instructiui SQL (Structured Query Language) pentru a face operatii de tip CRUD
 - Sunt 3 concepte importante cand lucram cu o baza de date: crearea unei conexiuni cu baza de date, crearea unei instructiuni care sa se execute in baza de date si obtinerea unui set de date care sa reprezinte rezultatele
