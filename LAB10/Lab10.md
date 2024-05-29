@@ -1,4 +1,5 @@
-# JDBC.
+###### JDBC (JAVA DATABASE CONNECTIVITY)
+
 
 ###### JDBC (JAVA DATABASE CONNECTIVITY)
 - Pentru a persista si a gestiona date intr-o aplicatie, folosim o baza de date care este gestionata de un SGBD (sistem de gestiune a bazelor de date) dedicat, aflat de obicei pe un server
